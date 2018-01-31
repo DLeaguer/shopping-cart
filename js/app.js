@@ -37,32 +37,32 @@ var itemElem = document.getElementById('items');
 		var prodDiv = document.createElement('div');
 		prodDiv.className = 'prod';
 		prodDiv.innerHTML = products[i].product;
-		lineDiv.appendChild(prodDiv);
+		itemElem.appendChild(prodDiv);
 
 		var descDiv = document.createElement('div');
 		descDiv.className = 'desc';
 		descDiv.innerHTML = products[i].description;
-		prodDiv.appendChild(descDiv);
+		itemElem.appendChild(descDiv);
 
 		var pricDiv = document.createElement('div');
 		pricDiv.className = 'pric';
 		pricDiv.innerHTML = products[i].price;
-		descDiv.appendChild(pricDiv);
+		lineDiv.appendChild(pricDiv);
 	}
 
-var prodElem = document.getElementsByClassName("prod");
+var prodElem = document.getElementsByClassName('prod');
 
 for(var i = 0; i<prodElem.length; i++){
-  prodElem[i].addEventListener("click", showProduct);
+  prodElem[i].addEventListener('click', showProduct);
   }
 
 function showProduct(){
   //console.log(this.innerHTML)
-  var descrip = this.querySelectorAll(".desc")[0];
-  if(descrip.style.display === "none"){
-    descrip.style.display = "block";
+  var descrip = this.querySelectorAll('.desc')[0];
+  if (descrip.style.display === 'none'){
+    descrip.style.display = 'block';
   }else{
-    descrip.style.display = "none";
+    descrip.style.display = 'none';
   }
 }
 
@@ -85,7 +85,7 @@ function addUp(num){
 	}
 	return subtot;
 }
-addUp()
+addUp();
 
 var subDiv = document.createElement('div');
 subDiv.className = 'subtots';
