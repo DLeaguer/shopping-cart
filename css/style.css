@@ -1,0 +1,107 @@
+body{
+	/*background-color: lightblue;*/
+	margin: 0;
+	padding: 0;
+}
+
+#banner{
+	background-color: orange;
+	height: 100px;
+	width: 100%;
+	text-align: inline;
+	margin-bottom: 50px;
+}
+
+.title{
+	color: sienna;
+	font-weight: 900;
+	font-size: 28px;
+	/*font-family: sans-serif;*/
+	font-family: 'VT323', monospace;
+	font-family: 'Open Sans', sans-serif;
+
+	text-align: inline;
+	float: left;
+	margin: 30px 0px;
+}
+
+img{
+	margin: 30px 20px;
+	float: left;
+}
+
+.line{
+  background-color: lightgrey;
+  width: 80%;
+  height: 2px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 100px;
+  float: left;
+}
+
+.prod{
+	/*background-color: lavender;*/
+	width: 100%;
+	margin-top: 20px;
+	font-size: 18px;
+	color: grey;
+	font-family: 'VT323', monospace;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.desc{
+	/*background-color: orange;*/
+	display: 'none';
+	width: 100%;
+	font-size: 14px;
+	color: lightgrey;
+	/*font-weight: normal;*/
+	font-family: 'VT323', monospace;
+	/*font-family: 'Open Sans', sans-serif;*/
+}
+
+.pric{
+	/*background-color: aqua;*/
+	/*display: 'none';*/
+	float: right;
+	font-size: 22px;
+	color: grey;
+	/*font-weight: normal;*/
+	font-family: 'VT323', monospace;
+	/*font-family: 'Open Sans', sans-serif;*/
+}
+
+.tots{
+	/*background-color: lavender;*/
+	width: 80%;
+	/*height: 2px;*/
+  	/*margin-left: 10%;*/
+  	margin-right: 10%;
+  	margin-bottom: 100px;
+  	float: left;
+	width: 100%;
+	margin-top: 20px;
+	font-size: 18px;
+	color: grey;
+	font-family: 'VT323', monospace;
+	font-family: 'Open Sans', sans-serif;	
+}
+
+.subtots{
+	/*background-color: aqua;*/
+	/*display: 'none';*/
+	float: right;
+	font-size: 22px;
+	color: grey;
+	/*font-weight: normal;*/
+	font-family: 'VT323', monospace;
+	/*font-family: 'Open Sans', sans-serif;*/	
+}
+
+.picture{
+	width: 50px;
+	height: 50px;
+	float: left;
+	display: inline;
+}
