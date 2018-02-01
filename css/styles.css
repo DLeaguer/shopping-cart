@@ -1,3 +1,30 @@
 body{
-	background-color: lightblue;
+	/*background-color: lightblue;*/
 }
+
+.line{
+	background-color: lightgrey;
+	width: 80%;
+	height: 2px;
+	margin-left: 10%;
+}
+
+.prod{
+	background-color: green;
+	width: 80%;
+	margin-left: 10%;
+}
+
+.desc{
+	background-color: orange;
+	width: 70%;
+	margin-left: 10%;
+}
+
+.pric{
+	background-color: aqua;
+	float: right;
+	margin-right: 12%;
+	margin-top: -25px;
+}
+
