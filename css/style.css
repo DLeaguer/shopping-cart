@@ -65,7 +65,7 @@ img{
 
 .pric{
 	background-color: aqua;
-	display: 'none';
+	/*display: 'none';*/
 	float: right;
 	margin: 40px;
 	margin-right: 2%;

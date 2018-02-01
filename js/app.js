@@ -42,7 +42,7 @@ var itemElem = document.getElementById('items');
 		var descDiv = document.createElement('div');
 		descDiv.className = 'desc';
 		descDiv.innerHTML = products[i].description;
-		itemElem.appendChild(descDiv);
+		prodDiv.appendChild(descDiv);
 
 		var pricDiv = document.createElement('div');
 		pricDiv.className = 'pric';
@@ -51,6 +51,7 @@ var itemElem = document.getElementById('items');
 	}
 
 var prodElem = document.getElementsByClassName('prod');
+// console.log(prodElem);
 
 for(var i = 0; i<prodElem.length; i++){
   prodElem[i].addEventListener('click', showProduct);
@@ -58,11 +59,12 @@ for(var i = 0; i<prodElem.length; i++){
 
 function showProduct(){
   //console.log(this.innerHTML)
-  var descrip = this.querySelectorAll('.desc')[0];
-  if (descrip.style.display === 'none'){
-    descrip.style.display = 'block';
+  var des = this.querySelectorAll('.desc');
+  console.log(des);
+  if (des.style.display === 'none'){
+    des.style.display = 'block';
   }else{
-    descrip.style.display = 'none';
+    des.style.display = 'none';
   }
 }
 
