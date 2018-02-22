@@ -1,0 +1,116 @@
+body{
+	/*background-color: lightblue;*/
+	font-family: calibri;
+	margin: 0;
+}
+
+.headerimg{
+	background-color: orange;
+	display: inline;
+	float: left;
+	padding: 20px;
+}
+
+.header1{
+	background-color: orange;
+	color: #aa5d25;
+	font-family: calibri;
+	font-size: 30px;
+	font-weight: bold;
+	display: inline;
+	line-height: 80px;
+	padding-top: 80px;
+	padding-bottom: 20px;
+}
+
+.banner{
+	background-color: orange;
+	display: inline;
+	position: absolute;
+	padding: 39px 0;
+	padding-left: 100%;
+}
+
+.divider{
+	height: 60px;
+}
+
+.line{
+	/*background-color: blue;*/
+	border-top: 2px solid gray;
+}
+
+.container{
+	margin-left: 75px;
+	margin-right: 6%;
+}
+
+.img{
+	/*background-color: purple;*/
+	width: 100px;
+	height: 100px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+.divi{
+	padding-top: 10px;
+	padding-bottom: 90px;
+	/*margin-top: 20px;*/
+	/*margin-bottom: 80px;*/
+}
+
+.item{
+	/*background-color: green;*/
+	color: gray;
+	font-size: 20px;
+	font-weight: bold;
+	/*margin-top: 20px;*/
+	/*margin-bottom: 80px;*/
+	margin-left: 110px;
+	margin-right: 20%;
+}
+
+.item:hover{
+	cursor: pointer;
+}
+
+.description{
+	position: absolute;
+	font-size: 15px;
+	font-weight: normal;
+	display: none;
+	margin-right: 25%;
+	margin-bottom: 10px;
+}
+
+.price{
+	color: gray;
+	font-family: arial;
+	font-size: 20px;
+	float: right;
+	margin-top: 50px;
+	margin-right: 20px;
+}
+
+.total{
+	color: gray;
+	float: right;
+	margin-top: 50px;
+	margin-right: 20px;
+	font-family: arial;	
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.subtotal{
+	color: gray;
+	font-size: 23px;
+	font-weight: bold;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	margin-left: 110px;
+	margin-right: 20%;	
+}
